@@ -1,5 +1,5 @@
 import { RouterModule, Routes } from '@angular/router';
-import { RegisterComponent } from './pages/register/register.component';
+import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './views/login/login.component';
 import { DefaultLoginLayoutComponent } from './components/default-login-layout/default-login-layout.component';
 import { ForgetPasswordComponent } from './pages/forget-password/forget-password.component'; // novo
@@ -10,8 +10,7 @@ export const routes: Routes = [
     { path: "login", component: LoginComponent },
     { path: '', component: DefaultLoginLayoutComponent},
     { path: 'forgot-password', component: ForgetPasswordComponent},
-    { path: 'register', loadComponent: () => import('./components/default-login-layout/default-login-layout.component').then(m => m.DefaultLoginLayoutComponent) },
-    { path: 'cadastro', component: RegisterComponent }
+    { path: 'register', component:  RegisterComponent},
 ];
 
 @NgModule({
