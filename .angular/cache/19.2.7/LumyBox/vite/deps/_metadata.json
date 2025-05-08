@@ -1,49 +1,49 @@
 {
-  "hash": "516ac688",
-  "configHash": "ac47356a",
+  "hash": "1ca6d1b1",
+  "configHash": "d5299596",
   "lockfileHash": "9975e742",
-  "browserHash": "7ece0219",
+  "browserHash": "f8a7b58d",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "6a1ff7b8",
+      "fileHash": "b1c8af78",
       "needsInterop": false
     },
     "@angular/fire/analytics": {
       "src": "../../../../../../node_modules/@angular/fire/fesm2015/angular-fire-analytics.js",
       "file": "@angular_fire_analytics.js",
-      "fileHash": "f3455b75",
+      "fileHash": "bfe55906",
       "needsInterop": false
     },
     "@angular/fire/app": {
       "src": "../../../../../../node_modules/@angular/fire/fesm2015/angular-fire-app.js",
       "file": "@angular_fire_app.js",
-      "fileHash": "c9f482ba",
+      "fileHash": "002007a5",
       "needsInterop": false
     },
     "@angular/fire/auth": {
       "src": "../../../../../../node_modules/@angular/fire/fesm2015/angular-fire-auth.js",
       "file": "@angular_fire_auth.js",
-      "fileHash": "78a01d29",
+      "fileHash": "b7a1a319",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "a779f63e",
+      "fileHash": "c6be566d",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "28e83e92",
+      "fileHash": "a777e269",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "93690d77",
+      "fileHash": "d1c459b4",
       "needsInterop": false
     }
   },
