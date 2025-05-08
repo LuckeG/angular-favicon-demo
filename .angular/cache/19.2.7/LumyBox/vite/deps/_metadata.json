@@ -1,0 +1,70 @@
+{
+  "hash": "516ac688",
+  "configHash": "ac47356a",
+  "lockfileHash": "9975e742",
+  "browserHash": "7ece0219",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "6a1ff7b8",
+      "needsInterop": false
+    },
+    "@angular/fire/analytics": {
+      "src": "../../../../../../node_modules/@angular/fire/fesm2015/angular-fire-analytics.js",
+      "file": "@angular_fire_analytics.js",
+      "fileHash": "f3455b75",
+      "needsInterop": false
+    },
+    "@angular/fire/app": {
+      "src": "../../../../../../node_modules/@angular/fire/fesm2015/angular-fire-app.js",
+      "file": "@angular_fire_app.js",
+      "fileHash": "c9f482ba",
+      "needsInterop": false
+    },
+    "@angular/fire/auth": {
+      "src": "../../../../../../node_modules/@angular/fire/fesm2015/angular-fire-auth.js",
+      "file": "@angular_fire_auth.js",
+      "fileHash": "78a01d29",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "a779f63e",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "28e83e92",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "93690d77",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JBKE3U26": {
+      "file": "chunk-JBKE3U26.js"
+    },
+    "chunk-XX457IAK": {
+      "file": "chunk-XX457IAK.js"
+    },
+    "chunk-7LLUCBEN": {
+      "file": "chunk-7LLUCBEN.js"
+    },
+    "chunk-LAOYNPVY": {
+      "file": "chunk-LAOYNPVY.js"
+    },
+    "chunk-W3CUPB4Z": {
+      "file": "chunk-W3CUPB4Z.js"
+    },
+    "chunk-OGAGMAZD": {
+      "file": "chunk-OGAGMAZD.js"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "demo": {
+      "architect": {
+        "build": {
+          "options": {
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
