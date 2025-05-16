@@ -1,0 +1,108 @@
+// home.component.sass
+$background-color: #0f0f23
+$primary-pink: #e84a7d
+$card-bg: #b48484
+$text-color: #d3d3d3
+
+body
+  margin: 0
+  background-color: $background-color
+  font-family: 'Arial', sans-serif
+  color: $text-color
+
+.home-container
+  padding: 40px
+
+.header
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  .logo
+    font-size: 40px
+    color: $primary-pink
+    font-weight: bold
+  .search-section
+    display: flex
+    align-items: center
+    gap: 20px
+    .search-input
+      background: none
+      border: none
+      border-bottom: 1px solid white
+      outline: none
+      color: white
+      width: 30px
+      background-image: url('/assets/imagens/search-icon.svg')
+      background-repeat: no-repeat
+      background-position: center
+      height: 30px
+    .filters
+      display: flex
+      gap: 10px
+      .filter-button
+        background: none
+        border: 1px solid white
+        padding: 5px 10px
+        border-radius: 10px
+        color: white
+        cursor: pointer
+      .filter-select
+        background: none
+        border: 1px solid white
+        padding: 5px 10px
+        border-radius: 10px
+        color: white
+
+.main-content
+  display: flex
+  margin-top: 40px
+
+.grid-movies
+  display: grid
+  grid-template-columns: repeat(5, 1fr)
+  gap: 1.5rem
+  flex: 1
+  
+.movie-card
+  width: 140px
+  height: 210px
+  overflow: hidden
+  border-radius: 10px
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
+  transition: transform 0.2s ease
+
+.movie-card img
+  width: 100%
+  height: 100%
+  object-fit: cover
+  border-radius: 10px
+
+
+.movie-card:hover
+  transform: scale(1.05)
+
+  
+.suggestion-box
+  flex: 1
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  margin-left: 60px
+  .suggestion-card
+    background-color: $card-bg
+    color: $primary-pink
+    font-size: 60px
+    padding: 50px 40px
+    border-radius: 10px
+    margin-bottom: 20px
+  p
+    font-size: 22px
+    text-align: center
+  .refresh-button
+    margin-top: 20px
+    background: none
+    border: none
+    color: white
+    font-size: 30px
+    cursor: pointer
